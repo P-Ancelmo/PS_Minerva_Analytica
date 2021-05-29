@@ -3,6 +3,7 @@ def cavalo():
 
     pos_cavalo = input("-> ").lower()
     pos_desejada = input("-> ").lower()
+
     eixo_x = ['a','b','c','d','e','f','g','h']
     if len(pos_cavalo) == 2 and len(pos_desejada) == 2:
         if eixo_x.__contains__(pos_cavalo[0]) and eixo_x.__contains__(pos_desejada[0]):

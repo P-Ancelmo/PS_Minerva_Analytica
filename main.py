@@ -5,6 +5,8 @@ from time import sleep
 
 
 def limpa_tela():
+    print("\nPrecione enter para continuar")
+    input("->")
     #verificando qual o sistema operacional para usar o comando correto
     if sy() == 'Windows':
         clear = "cls"
@@ -37,5 +39,5 @@ def menu():
 
 if __name__ == '__main__':
     while True:
-        limpa_tela()
         menu()
+        limpa_tela()

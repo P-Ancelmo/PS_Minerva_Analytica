@@ -1,6 +1,7 @@
 from Q1 import media
 from Q2 import cavalo
 from Q3 import caixa
+from Q4 import le_arquivo
 
 #classe criada para exercer a mesma função do switch case e facilitar a chamada das fuções na main
 class Switcher_Questao(object):
@@ -18,4 +19,8 @@ class Switcher_Questao(object):
 
     def quest_3(self):
         print("\nQuestão 3:")
-        return cavalo()
+        return caixa()
+
+    def quest_4(self):
+        print("\nQuestão 4:")
+        return le_arquivo()

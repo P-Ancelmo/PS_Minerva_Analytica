@@ -37,6 +37,7 @@ def menu():
             print("Opção inválida, digite novamente")
 
 
+
 if __name__ == '__main__':
     while True:
         menu()
